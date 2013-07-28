@@ -3,7 +3,8 @@ e := try(
     "weakly typed" println
 )
 
-Exception catch(Exception,
+e catch(Exception,
     "strongly typed" println
+    e println
 )
 
